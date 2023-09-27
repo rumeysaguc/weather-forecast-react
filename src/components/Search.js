@@ -4,10 +4,10 @@ function Search(){
     return (
         <div>
              <Row>
-      <Col span={12}> <DatePicker />
-</Col>
-      <Col span={12}><Button icon={<SearchOutlined />}>Search</Button>
-</Col>
+                
+     <DatePicker />
+<Button danger type="primary" icon={<SearchOutlined />}>Search</Button>
+
     </Row>
 
 
